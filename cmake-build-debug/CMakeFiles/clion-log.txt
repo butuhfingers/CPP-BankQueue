@@ -1,0 +1,4 @@
+"B:\Program Files(x86)\JetBrains\CLion\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "B:\Users\Development\My Documents\C++\BankQueue"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: B:/Users/Development/My Documents/C++/BankQueue/cmake-build-debug
