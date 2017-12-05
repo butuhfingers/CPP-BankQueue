@@ -82,10 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="B:/Users/Development/My Documents/C++/BankQueue/LinkedList.cpp">
+		<Unit filename="B:/Users/Development/My Documents/C++/BankQueue/Client.cpp">
 			<Option target="BankQueue"/>
 		</Unit>
-		<Unit filename="B:/Users/Development/My Documents/C++/BankQueue/LinkedList.h">
+		<Unit filename="B:/Users/Development/My Documents/C++/BankQueue/Client.h">
 			<Option target="BankQueue"/>
 		</Unit>
 		<Unit filename="B:/Users/Development/My Documents/C++/BankQueue/main.cpp">

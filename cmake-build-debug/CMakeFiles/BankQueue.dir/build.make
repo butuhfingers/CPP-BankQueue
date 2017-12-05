@@ -80,40 +80,40 @@ CMakeFiles/BankQueue.dir/main.cpp.obj.provides: CMakeFiles/BankQueue.dir/main.cp
 CMakeFiles/BankQueue.dir/main.cpp.obj.provides.build: CMakeFiles/BankQueue.dir/main.cpp.obj
 
 
-CMakeFiles/BankQueue.dir/LinkedList.cpp.obj: CMakeFiles/BankQueue.dir/flags.make
-CMakeFiles/BankQueue.dir/LinkedList.cpp.obj: ../LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="B:\Users\Development\My Documents\C++\BankQueue\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BankQueue.dir/LinkedList.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BankQueue.dir\LinkedList.cpp.obj -c "B:\Users\Development\My Documents\C++\BankQueue\LinkedList.cpp"
+CMakeFiles/BankQueue.dir/Client.cpp.obj: CMakeFiles/BankQueue.dir/flags.make
+CMakeFiles/BankQueue.dir/Client.cpp.obj: ../Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="B:\Users\Development\My Documents\C++\BankQueue\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BankQueue.dir/Client.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BankQueue.dir\Client.cpp.obj -c "B:\Users\Development\My Documents\C++\BankQueue\Client.cpp"
 
-CMakeFiles/BankQueue.dir/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BankQueue.dir/LinkedList.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "B:\Users\Development\My Documents\C++\BankQueue\LinkedList.cpp" > CMakeFiles\BankQueue.dir\LinkedList.cpp.i
+CMakeFiles/BankQueue.dir/Client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BankQueue.dir/Client.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "B:\Users\Development\My Documents\C++\BankQueue\Client.cpp" > CMakeFiles\BankQueue.dir\Client.cpp.i
 
-CMakeFiles/BankQueue.dir/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BankQueue.dir/LinkedList.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "B:\Users\Development\My Documents\C++\BankQueue\LinkedList.cpp" -o CMakeFiles\BankQueue.dir\LinkedList.cpp.s
+CMakeFiles/BankQueue.dir/Client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BankQueue.dir/Client.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "B:\Users\Development\My Documents\C++\BankQueue\Client.cpp" -o CMakeFiles\BankQueue.dir\Client.cpp.s
 
-CMakeFiles/BankQueue.dir/LinkedList.cpp.obj.requires:
+CMakeFiles/BankQueue.dir/Client.cpp.obj.requires:
 
-.PHONY : CMakeFiles/BankQueue.dir/LinkedList.cpp.obj.requires
+.PHONY : CMakeFiles/BankQueue.dir/Client.cpp.obj.requires
 
-CMakeFiles/BankQueue.dir/LinkedList.cpp.obj.provides: CMakeFiles/BankQueue.dir/LinkedList.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\BankQueue.dir\build.make CMakeFiles/BankQueue.dir/LinkedList.cpp.obj.provides.build
-.PHONY : CMakeFiles/BankQueue.dir/LinkedList.cpp.obj.provides
+CMakeFiles/BankQueue.dir/Client.cpp.obj.provides: CMakeFiles/BankQueue.dir/Client.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\BankQueue.dir\build.make CMakeFiles/BankQueue.dir/Client.cpp.obj.provides.build
+.PHONY : CMakeFiles/BankQueue.dir/Client.cpp.obj.provides
 
-CMakeFiles/BankQueue.dir/LinkedList.cpp.obj.provides.build: CMakeFiles/BankQueue.dir/LinkedList.cpp.obj
+CMakeFiles/BankQueue.dir/Client.cpp.obj.provides.build: CMakeFiles/BankQueue.dir/Client.cpp.obj
 
 
 # Object files for target BankQueue
 BankQueue_OBJECTS = \
 "CMakeFiles/BankQueue.dir/main.cpp.obj" \
-"CMakeFiles/BankQueue.dir/LinkedList.cpp.obj"
+"CMakeFiles/BankQueue.dir/Client.cpp.obj"
 
 # External object files for target BankQueue
 BankQueue_EXTERNAL_OBJECTS =
 
 BankQueue.exe: CMakeFiles/BankQueue.dir/main.cpp.obj
-BankQueue.exe: CMakeFiles/BankQueue.dir/LinkedList.cpp.obj
+BankQueue.exe: CMakeFiles/BankQueue.dir/Client.cpp.obj
 BankQueue.exe: CMakeFiles/BankQueue.dir/build.make
 BankQueue.exe: CMakeFiles/BankQueue.dir/linklibs.rsp
 BankQueue.exe: CMakeFiles/BankQueue.dir/objects1.rsp
@@ -127,7 +127,7 @@ CMakeFiles/BankQueue.dir/build: BankQueue.exe
 .PHONY : CMakeFiles/BankQueue.dir/build
 
 CMakeFiles/BankQueue.dir/requires: CMakeFiles/BankQueue.dir/main.cpp.obj.requires
-CMakeFiles/BankQueue.dir/requires: CMakeFiles/BankQueue.dir/LinkedList.cpp.obj.requires
+CMakeFiles/BankQueue.dir/requires: CMakeFiles/BankQueue.dir/Client.cpp.obj.requires
 
 .PHONY : CMakeFiles/BankQueue.dir/requires
 

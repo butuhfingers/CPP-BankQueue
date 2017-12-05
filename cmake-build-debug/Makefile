@@ -122,32 +122,32 @@ BankQueue/fast:
 	$(MAKE) -f CMakeFiles\BankQueue.dir\build.make CMakeFiles/BankQueue.dir/build
 .PHONY : BankQueue/fast
 
-LinkedList.obj: LinkedList.cpp.obj
+Client.obj: Client.cpp.obj
 
-.PHONY : LinkedList.obj
+.PHONY : Client.obj
 
 # target to build an object file
-LinkedList.cpp.obj:
-	$(MAKE) -f CMakeFiles\BankQueue.dir\build.make CMakeFiles/BankQueue.dir/LinkedList.cpp.obj
-.PHONY : LinkedList.cpp.obj
+Client.cpp.obj:
+	$(MAKE) -f CMakeFiles\BankQueue.dir\build.make CMakeFiles/BankQueue.dir/Client.cpp.obj
+.PHONY : Client.cpp.obj
 
-LinkedList.i: LinkedList.cpp.i
+Client.i: Client.cpp.i
 
-.PHONY : LinkedList.i
+.PHONY : Client.i
 
 # target to preprocess a source file
-LinkedList.cpp.i:
-	$(MAKE) -f CMakeFiles\BankQueue.dir\build.make CMakeFiles/BankQueue.dir/LinkedList.cpp.i
-.PHONY : LinkedList.cpp.i
+Client.cpp.i:
+	$(MAKE) -f CMakeFiles\BankQueue.dir\build.make CMakeFiles/BankQueue.dir/Client.cpp.i
+.PHONY : Client.cpp.i
 
-LinkedList.s: LinkedList.cpp.s
+Client.s: Client.cpp.s
 
-.PHONY : LinkedList.s
+.PHONY : Client.s
 
 # target to generate assembly for a file
-LinkedList.cpp.s:
-	$(MAKE) -f CMakeFiles\BankQueue.dir\build.make CMakeFiles/BankQueue.dir/LinkedList.cpp.s
-.PHONY : LinkedList.cpp.s
+Client.cpp.s:
+	$(MAKE) -f CMakeFiles\BankQueue.dir\build.make CMakeFiles/BankQueue.dir/Client.cpp.s
+.PHONY : Client.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -185,9 +185,9 @@ help:
 	@echo ... BankQueue
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... LinkedList.obj
-	@echo ... LinkedList.i
-	@echo ... LinkedList.s
+	@echo ... Client.obj
+	@echo ... Client.i
+	@echo ... Client.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

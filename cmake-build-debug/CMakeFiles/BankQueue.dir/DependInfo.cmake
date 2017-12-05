@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "B:/Users/Development/My Documents/C++/BankQueue/LinkedList.cpp" "B:/Users/Development/My Documents/C++/BankQueue/cmake-build-debug/CMakeFiles/BankQueue.dir/LinkedList.cpp.obj"
+  "B:/Users/Development/My Documents/C++/BankQueue/Client.cpp" "B:/Users/Development/My Documents/C++/BankQueue/cmake-build-debug/CMakeFiles/BankQueue.dir/Client.cpp.obj"
   "B:/Users/Development/My Documents/C++/BankQueue/main.cpp" "B:/Users/Development/My Documents/C++/BankQueue/cmake-build-debug/CMakeFiles/BankQueue.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
